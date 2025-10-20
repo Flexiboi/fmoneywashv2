@@ -6,3 +6,7 @@ You will need:
 - ox_lib
 - OX radial menu or convert to own
 - PolyZone
+
+```
+    ['blackmoney']           = { label = 'Blackmoney', weight = 0, stack = true, close = true, buttons = { { label = "Roll", action = function(slot) TriggerEvent('sublime_moneywash:Client:RollMoney') end } } },  -- same weight as cash
+```
